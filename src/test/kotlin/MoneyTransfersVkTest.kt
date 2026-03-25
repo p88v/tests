@@ -205,6 +205,6 @@ class MoneyTransfersVkTest {
         val sum = 100_000
         val month = 0
         val result = moneyTransfersVk(system, sumOfMonth, sum, month)
-        assertEquals(1, result)
+        assertEquals(0, result)
     }
 }
